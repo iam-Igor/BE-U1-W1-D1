@@ -10,8 +10,8 @@ public class Main2 {
         String input2 = userInput.nextLine();
         String input3 = userInput.nextLine();
 
-        String normalOutput = input1 + input2 + input3;
-        String reverseOutput = input3 + input2 + input1;
+        String normalOutput = input1 + " " + input2 + " " + input3;
+        String reverseOutput = input3 + " " + input2 + " " + input1;
 
         System.out.println("Hai inserito: " + normalOutput + "Al contrario invece:" + reverseOutput);
 

@@ -27,9 +27,9 @@ public class Main {
         String[] newArray = new String[6];
         System.arraycopy(stringArray, 0, newArray, 0, 2);
         newArray[2] = word1;
-        newArray[3] = stringArray[3];
-        newArray[4] = stringArray[4];
-        newArray[5] = "";
+        newArray[3] = stringArray[2];
+        newArray[4] = stringArray[3];
+        newArray[5] = stringArray[4];
         return newArray;
     }
 }
