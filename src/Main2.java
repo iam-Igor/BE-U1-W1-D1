@@ -15,6 +15,8 @@ public class Main2 {
 
         System.out.println("Hai inserito: " + normalOutput + "Al contrario invece:" + reverseOutput);
 
+        //         esercizio2
+
         System.out.println("Adesso inserisci due numeri decimali e calcolerò l'area del rettangolo poi premi invio");
 
         double side1 = Double.parseDouble(userInput.nextLine());
@@ -23,10 +25,13 @@ public class Main2 {
         System.out.println("L'area del rettangolo è di:" + calcRectPerim(side1, side2));
 
 
+        //         esercizio3
+
         System.out.println("Adesso inserisci un numero intero e ti dirò se è pari (0) o dispari (1) poi premi invio");
         int number1 = Integer.parseInt(userInput.nextLine());
         System.out.println("Il numero è: " + oddOrEven(number1));
 
+        //         esercizio4
 
         System.out.println("Adesso inserisci tre numeri decimali e calcolerò l'area del triangolo, poi premi invio");
 
